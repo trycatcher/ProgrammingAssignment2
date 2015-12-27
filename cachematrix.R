@@ -1,8 +1,8 @@
 ## This function creates a special "matrix", which is really a list containing a function to
 ## 1. set the value of the matrix
-## get the value of the matrix
-## set the value of the inverse
-## get the value of the inverse
+## 2. get the value of the matrix
+## 3. set the value of the inverse
+## 4. get the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
